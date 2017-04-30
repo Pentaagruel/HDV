@@ -1,0 +1,35 @@
+TODO:
+
+- Review list of Bonus to be sure they match the case (uppercase, lowercase)
+- SQL queries
+- Etude de marché en demandant aux joueurs les informations qu'ils souhaitent avoir.    
+- Creer des sequence ou la souris bouge doucement autour de la zone d'interet. Enregistrer la tonne de mouvement ?
+- Dès qu'un prmier HDV a été scanné, vérifier les noms des objets et puis faire des méthodes pour vérifier les noms plus tard. On pourra alors réduire le nombre de check sur les charactère en faisant directement du fuzzy matching.
+
+BDD MODEL:
+
+Selon HDV ?
+
+Chaque objet peut être décrit de la manière suivante :
+
+- id_mesure
+- serveur 
+- Nom
+- date
+- prix
+- Caracts
+
+APPLICATION MODEL:
+
+module Read
+module Check
+module Parse
+module Db
+module Market 
+module Char
+
+module Logging // A faire plus tard
+module Settings // A faire plus tard
+
+OTHER:
+
