@@ -77,11 +77,11 @@ settings = {
             
             'Markets' : {
                             'location' : {
-                                            'otype' : np.array([224,148,227,15]),
+                                            'otype' : np.array([224,144,227,15]),
                                             'title' : np.array([622,238,300,32]),
-                                            'un' : np.array([616,336,96,36]),
-                                            'dix' : np.array([716,336,96,36]),
-                                            'cent' : np.array([822,337,96,36]),
+                                            'un' : np.array([616,332,96,36]),
+                                            'dix' : np.array([716,332,96,36]),
+                                            'cent' : np.array([822,332,96,36]),
                                          },
                             'PNGs': {
                                        'Resources': {
